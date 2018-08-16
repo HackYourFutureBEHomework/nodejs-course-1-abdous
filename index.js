@@ -17,3 +17,9 @@ server.get("/about", (request, response) => {
     response.send("Hello World we are learning nodejs - about");
 });
 
+// making the route taking any variable .
+
+server.get("/:value", (request, response) => {
+    
+  response.send(request.params.value);
+});
