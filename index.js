@@ -34,12 +34,8 @@ server.get("/:value", (request, response) => {
 server.get("/:num1/plus/:num2/is", (request, response) =>{
     const{num1,num2} = request.params;
     const result = Number(num1) + Number(num2);
-    if (result){
-        response.send("the result is going to be:" + `${result}` );
-        response.end();
-    } else{
-
-    }
+   
+    response.send("the result is going to be:" + `${result}` );
    
   
 });
