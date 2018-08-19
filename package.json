@@ -6,6 +6,7 @@
   "dependencies": {
     "cardinal": "^2.1.1",
     "express": "^4.16.3",
+    "nodemailer": "^4.6.8",
     "number-to-words": "^1.2.4",
     "v-number-to-words": "^1.0.9"
   },
